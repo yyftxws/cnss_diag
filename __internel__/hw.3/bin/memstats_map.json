@@ -1,0 +1,1309 @@
+{
+    "build_number": 0, 
+    "rom_version": "ar6320v3", 
+    "rom_map_date": "2014-10-06 19:09:22.619887", 
+    "header": "auto-geneated memory stats map file - do not edit by hand", 
+    "entries": {
+        "0x1000650": {
+            "summary": "MAX_NUM_OF_WLAN_CHAN", 
+            "lineno": "475", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x1001940": {
+            "summary": "sizeof(struct _wlan_virtual_chan)", 
+            "lineno": "657", 
+            "filename": "target/protocol/src/resmgr/virtual_channel.c"
+        }, 
+        "0x93442e": {
+            "filename": "target/src/misc/module_id/module_id.c", 
+            "lineno": "25", 
+            "summary": ""
+        }, 
+        "0x10007e0": {
+            "summary": "sizeof(struct whal_ini_tbl_info_s)*WHAL_INI_DATA_ID_MAX+1", 
+            "lineno": "119", 
+            "filename": "target/mac_core/src/wal/whal/ini/whalini.c"
+        }, 
+        "0x1004380": {
+            "summary": "sizeof(struct wal_tx_mpdu)", 
+            "lineno": "4203", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tx_send_patch.c"
+        }, 
+        "0x1001b70": {
+            "summary": "sizeof(*g_htt_tgt_hif_svc_state_ptr)", 
+            "lineno": "1446", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_hif_svc.c"
+        }, 
+        "0x1000b00": {
+            "summary": "sizeof(wlan_vdevmgr_handle)", 
+            "lineno": "173", 
+            "filename": "target/protocol/src/vdev_mgr/wlan_vdev.c"
+        }, 
+        "0x1002d30": {
+            "summary": "WDI_IPA_RX_MAX_REFILL_CNT * sizeof(struct wdi_ipa_rx_ind_desc_t)", 
+            "lineno": "83", 
+            "filename": "target/mac_core/src/hostif/wdi_ipa/wdi_ipa_rx.c"
+        }, 
+        "0x1000140": {
+            "summary": "sizeof(struct rxbuf) * ath_rxbuf", 
+            "lineno": "229", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x92689d": {
+            "filename": "target/src/wlan/wal/AR/dev/ar_wal_phy_dev.c", 
+            "lineno": "155", 
+            "summary": ""
+        }, 
+        "0x1001220": {
+            "summary": "sizeof(WLAN_BEACON_COMMON_STRUCT)", 
+            "lineno": "156", 
+            "filename": "target/protocol/src/mgmt/wlan_beacon.c"
+        }, 
+        "0x1002730": {
+            "summary": "sizeof(struct pktlog_ctxt)", 
+            "lineno": "42", 
+            "filename": "target/mac_core/src/pktlog/pktlog.c"
+        }, 
+        "0x1003e50": {
+            "summary": "sizeof(struct wal_rx_ctxt)", 
+            "lineno": "2190", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_patch.c"
+        }, 
+        "0x935257": {
+            "filename": "target/src/wlan/wal/whal/ani/ar6000_ani.c", 
+            "lineno": "1251", 
+            "summary": ""
+        }, 
+        "0x1000550": {
+            "summary": "NumOfVdev", 
+            "lineno": "471", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x1000380": {
+            "summary": "sizeof(dev_info)", 
+            "lineno": "235", 
+            "filename": "target/protocol/src/init/wlan_dev.c"
+        }, 
+        "0x1002630": {
+            "summary": "sizeof(radio_stats_t)", 
+            "lineno": "2042", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x1003b50": {
+            "summary": "sizeof(struct _wal_vdev)", 
+            "lineno": "520", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }, 
+        "0x1002a20": {
+            "summary": "sizeof(struct wlan_tdls_vdev_ctx)", 
+            "lineno": "36", 
+            "filename": "target/protocol/src/tdls/wlan_tdls.c"
+        }, 
+        "0x1004730": {
+            "summary": "sizeof(struct _wal_tdls)", 
+            "lineno": "220", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tdls_patch.c"
+        }, 
+        "0x1002030": {
+            "summary": "WMI_MAX_NUM_TLVS * sizeof(wmitlv_cmd_param_info)", 
+            "lineno": "695", 
+            "filename": "target/mac_core/src/hostif/wmisvc/wmi_svc.c"
+        }, 
+        "0x10038f0": {
+            "summary": "sizeof(tNanCtrlCtx)", 
+            "lineno": "600", 
+            "filename": "target/protocol/src/nan/wlan_nan_ctrl.c"
+        }, 
+        "0x1000da0": {
+            "summary": "sizeof(*g_dfs_ch)", 
+            "lineno": "477", 
+            "filename": "target/protocol/src/phyerr/wlan_dfs_phyerr_filter.c"
+        }, 
+        "0x1001740": {
+            "summary": "sizeof(resmgr_dyn_sch_ctx_t)", 
+            "lineno": "257", 
+            "filename": "target/protocol/src/resmgr/resmgr_dyn_sch.c"
+        }, 
+        "0x1000e90": {
+            "summary": "sizeof(WLAN_RFKILL_API_FN)", 
+            "lineno": "320", 
+            "filename": "target/protocol/src/rfkill/wlan_rfkill.c"
+        }, 
+        "0x1002c20": {
+            "summary": "record->nbytes", 
+            "lineno": "171", 
+            "filename": "target/mac_core/src/misc/extend_alloc/extend_allocate.c"
+        }, 
+        "0x9218a1": {
+            "filename": "target/src/wlan/wal/AR/peer/ar_wal_ast.c", 
+            "lineno": "387", 
+            "summary": ""
+        }, 
+        "0x1002130": {
+            "summary": "sizeof(wlan_scan_sch_req)", 
+            "lineno": "929", 
+            "filename": "target/protocol/src/scan/wlan_scan_sch.c"
+        }, 
+        "0x1004630": {
+            "summary": "sizeof(A_UINT32)* DBGLOG_MODULE_LOG_LEVEL_SIZE(g_dbg_m_id_max)", 
+            "lineno": "345", 
+            "filename": "target/mac_core/patch/AR6320/v3/dbglog_patch.c"
+        }, 
+        "0x10039d0": {
+            "summary": "sizeof(tNanAttrCtx)", 
+            "lineno": "73", 
+            "filename": "target/protocol/src/nan/wlan_nan_attr.c"
+        }, 
+        "0x1000910": {
+            "summary": "sizeof(struct data_rx_peer)", 
+            "lineno": "387", 
+            "filename": "target/mac_core/src/data_txrx/full_reorder/data_rx_peer.c"
+        }, 
+        "0x10016f0": {
+            "summary": "sizeof(struct resmgr_link)", 
+            "lineno": "347", 
+            "filename": "target/protocol/src/resmgr/resmgr.c"
+        }, 
+        "0x91eb48": {
+            "filename": "target/src/hostif/copy_engine/copy_engine.c", 
+            "lineno": "976", 
+            "summary": ""
+        }, 
+        "0x1001bd0": {
+            "summary": "ROUND_TO_4(sizeof (t2h_node))", 
+            "lineno": "1604", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_hif_svc.c"
+        }, 
+        "0x10018e0": {
+            "summary": "sizeof(wlan_virtual_chan_ctxt_t)", 
+            "lineno": "635", 
+            "filename": "target/protocol/src/resmgr/virtual_channel.c"
+        }, 
+        "0x10048b0": {
+            "summary": "sizeof(SER_PORT_INSTANCE_INFO)", 
+            "lineno": "73", 
+            "filename": "target/mac_core/src/misc/serport/serial_port.c"
+        }, 
+        "0x10009e0": {
+            "summary": "sizeof(struct data_rx_reorder_mpdu)", 
+            "lineno": "1572", 
+            "filename": "target/mac_core/src/data_txrx/full_reorder/data_rx_reorder.c"
+        }, 
+        "0x1002e80": {
+            "summary": "HDLC_MAX_FRAME_SIZE", 
+            "lineno": "967", 
+            "filename": "target/mac_core/src/hostif/hif/hif_dbguart/hif_dbguart.c"
+        }, 
+        "0x10006f0": {
+            "summary": "sizeof(WAL_MWSCOEX_STRUCT)", 
+            "lineno": "2628", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_mwscoex.c"
+        }, 
+        "0x1002f30": {
+            "summary": "sizeof(wlan_lpi_mgmt_snooping_config_t)", 
+            "lineno": "1319", 
+            "filename": "target/protocol/src/lpi/wlan_lpi.c"
+        }, 
+        "0x1002920": {
+            "summary": "(num_chunks*chunk_size)", 
+            "lineno": "43", 
+            "filename": "target/mac_core/src/utils/buf_chunk/buf_chunk_api.c"
+        }, 
+        "0x1002ae0": {
+            "summary": "sizeof(struct wlan_tdls_offchan_info)", 
+            "lineno": "56", 
+            "filename": "target/protocol/src/tdls/wlan_tdls.c"
+        }, 
+        "0x1001f80": {
+            "summary": "WMI_DBUART_TX_BUFFER_SIZE", 
+            "lineno": "611", 
+            "filename": "target/mac_core/src/hostif/wmisvc/wmi_svc.c"
+        }, 
+        "0x1002480": {
+            "summary": "sizeof(wlan_link_layer_stats_ctxt_t)", 
+            "lineno": "2031", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x1002180": {
+            "summary": "sizeof(wlan_scan_sch_req)", 
+            "lineno": "932", 
+            "filename": "target/protocol/src/scan/wlan_scan_sch.c"
+        }, 
+        "0x1001fd0": {
+            "summary": "bufferSize + sizeof(WMI_CMD_HDR) + HTC_HDR_SZ", 
+            "lineno": "667", 
+            "filename": "target/mac_core/src/hostif/wmisvc/wmi_svc.c"
+        }, 
+        "0x1000240": {
+            "summary": "length", 
+            "lineno": "347", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1004250": {
+            "summary": "max_hw_ppdus * sizeof(A_UINT16)", 
+            "lineno": "4131", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tx_send_patch.c"
+        }, 
+        "0x1004960": {
+            "summary": "pInfo->TXBuffer.Size", 
+            "lineno": "81", 
+            "filename": "target/mac_core/src/misc/serport/serial_port.c"
+        }, 
+        "0x91d47b": {
+            "filename": "target/src/hostif/hif/hif_ce/hif_ce.c", 
+            "lineno": "428", 
+            "summary": ""
+        }, 
+        "0x10002f0": {
+            "summary": "sizeof(struct smmgtbuf) * ath_smmgmtbuf", 
+            "lineno": "408", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1002310": {
+            "summary": "sizeof(*wlan_pps)", 
+            "lineno": "866", 
+            "filename": "target/protocol/src/pps/wlan_pps.c"
+        }, 
+        "0x948212": {
+            "filename": "target/src/wlan/wal/whal/coex/whal_coex.c", 
+            "lineno": "1053", 
+            "summary": ""
+        }, 
+        "0x10045c0": {
+            "summary": "DBGLOG_NUM_LOG_BUFFERS * sizeof(struct dbglog_buf_s)", 
+            "lineno": "338", 
+            "filename": "target/mac_core/patch/AR6320/v3/dbglog_patch.c"
+        }, 
+        "0x10020f0": {
+            "summary": "size", 
+            "lineno": "892", 
+            "filename": "target/protocol/src/scan/wlan_scan_sch.c"
+        }, 
+        "0x1003850": {
+            "summary": "sizeof(tNanPublishCtx)", 
+            "lineno": "158", 
+            "filename": "target/protocol/src/nan/wlan_nan_publish.c"
+        }, 
+        "0x932f92": {
+            "filename": "target/src/wlan/wal/AR/wal_intr_schd/wal_intr_schd.c", 
+            "lineno": "135", 
+            "summary": ""
+        }, 
+        "0x1001f00": {
+            "summary": "sizeof(WMI_SVC_CONTEXT) + ((sizeof(WMI_EVT_PACKET)) * totalEvts)", 
+            "lineno": "597", 
+            "filename": "target/mac_core/src/hostif/wmisvc/wmi_svc.c"
+        }, 
+        "0x1001140": {
+            "summary": "sizeof(struct rxbuf) + extra_size", 
+            "lineno": "86", 
+            "filename": "target/protocol/src/offload_mgr/offload_mgr.c"
+        }, 
+        "0x1003590": {
+            "summary": "sizeof(struct wlan_ba_pdev_ctxt)", 
+            "lineno": "1868", 
+            "filename": "target/protocol/src/blockack/wlan_blockack.c"
+        }, 
+        "0x93ee23": {
+            "filename": "target/src/wlan/wal/whal/xmit/ar_xmit_wifi_ip01.c", 
+            "lineno": "2620", 
+            "summary": ""
+        }, 
+        "0x1001430": {
+            "summary": "sizeof(wlan_ps_ibss_atim_window_notification_cb_data)", 
+            "lineno": "65", 
+            "filename": "target/protocol/src/power/wlan_powersave.c"
+        }, 
+        "0x1002b30": {
+            "summary": "sizeof(extend_allocram_cont)", 
+            "lineno": "73", 
+            "filename": "target/mac_core/src/misc/extend_alloc/extend_allocate.c"
+        }, 
+        "0x9234af": {
+            "filename": "target/src/wlan/wal/AR/local_frames/ar_wal_local_frames_wifi_ip01.c", 
+            "lineno": "110", 
+            "summary": ""
+        }, 
+        "0x1004810": {
+            "summary": "sizeof(WLAN_EXTWOW_CTX)", 
+            "lineno": "1833", 
+            "filename": "target/protocol/src/extwow/wlan_extwow.c"
+        }, 
+        "0x1002a70": {
+            "summary": "sizeof(struct wlan_tdls_peer) * config->num_tdls_conn_table_entries", 
+            "lineno": "40", 
+            "filename": "target/protocol/src/tdls/wlan_tdls.c"
+        }, 
+        "0x1002890": {
+            "summary": "size", 
+            "lineno": "754", 
+            "filename": "target/protocol/src/chatter/wlan_coalescing.c"
+        }, 
+        "0x921831": {
+            "filename": "target/src/wlan/wal/AR/peer/ar_wal_ast.c", 
+            "lineno": "375", 
+            "summary": ""
+        }, 
+        "0x1003d30": {
+            "summary": "sizeof(struct _wal_vdev_dbg_link_stats) * config_param->num_vdev_entries", 
+            "lineno": "789", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }, 
+        "0x1000000": {
+            "summary": "num_list*sizeof(wlan_macst_filter_list)", 
+            "lineno": "887", 
+            "filename": "target/protocol/src/init/wlan_init.c"
+        }, 
+        "0x1000e40": {
+            "summary": "sizeof(RFKILL_CONTEXT)", 
+            "lineno": "292", 
+            "filename": "target/protocol/src/rfkill/wlan_rfkill.c"
+        }, 
+        "0x1000270": {
+            "summary": "length", 
+            "lineno": "355", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x10006a0": {
+            "summary": "sizeof(WAL_BTCOEX_STRUCT)", 
+            "lineno": "170", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_btcoex.c"
+        }, 
+        "0x10021d0": {
+            "summary": "size", 
+            "lineno": "430", 
+            "filename": "target/protocol/src/scan/wlan_scan.c"
+        }, 
+        "0x1002e10": {
+            "summary": "sizeof(WDI_IPA_TXBUF) * WDI_IPA_TX_PIPE_DEPTH", 
+            "lineno": "120", 
+            "filename": "target/mac_core/src/hostif/wdi_ipa/wdi_ipa_tx.c"
+        }, 
+        "0x1003810": {
+            "summary": "sizeof(tNanMacCtx)", 
+            "lineno": "242", 
+            "filename": "target/protocol/src/nan/wlan_nan_mac.c"
+        }, 
+        "0x91edba": {
+            "filename": "target/src/utils/qheap/qheap.c", 
+            "lineno": "88", 
+            "summary": ""
+        }, 
+        "0x1003ac0": {
+            "summary": "sizeof(struct _wal_pdev) + sizeof(wal_vdev_t *) * config_param->num_vdev_entries", 
+            "lineno": "508", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }, 
+        "0x1003180": {
+            "summary": "sizeof(BCN_TX_OFFLAOD_DEV_CTXT)", 
+            "lineno": "551", 
+            "filename": "target/protocol/src/offload/wlan_beacon_tx_offload.c"
+        }, 
+        "0x1000470": {
+            "summary": "sizeof(tCoexVdevStruct) * NumOfVdev", 
+            "lineno": "468", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x1004090": {
+            "summary": "sizeof(*offload_cb_ctxt)", 
+            "lineno": "80", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_offload_patch.c"
+        }, 
+        "0x1002ee0": {
+            "summary": "sizeof(wlan_lpi_context_t)", 
+            "lineno": "1315", 
+            "filename": "target/protocol/src/lpi/wlan_lpi.c"
+        }, 
+        "0x1004a00": {
+            "summary": "RTT_IFFT_BUFF_SIZE", 
+            "lineno": "293", 
+            "filename": "target/mac_core/src/wal/whal/rtt/whal_rtt.c"
+        }, 
+        "0x1001320": {
+            "summary": "sizeof(struct wlan_pm_arbiter_ctx)", 
+            "lineno": "45", 
+            "filename": "target/protocol/src/power/wlan_pm_arbiter.c"
+        }, 
+        "0x1003f00": {
+            "summary": "sizeof(struct rx_remote_buffer_mgmt_stats)", 
+            "lineno": "2260", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_patch.c"
+        }, 
+        "0x1001d50": {
+            "summary": "sizeof(*g_htt_tgt_rx_event_state_ptr)", 
+            "lineno": "1986", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_rx_event.c"
+        }, 
+        "0x949fe0": {
+            "filename": "target/src/wlan/wal/whal/coex/whal_mci.c", 
+            "lineno": "2127", 
+            "summary": ""
+        }, 
+        "0x1004790": {
+            "summary": "sizeof(struct _wal_tdls_conn_table_entry) * num_conn_table_entries", 
+            "lineno": "223", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tdls_patch.c"
+        }, 
+        "0x1000f30": {
+            "summary": "sizeof(bcn_filter_context_t)", 
+            "lineno": "410", 
+            "filename": "target/protocol/src/offload_mgr/beacon_filter.c"
+        }, 
+        "0x10002a0": {
+            "summary": "sizeof(struct mgtbuf) * ath_mgmtbuf", 
+            "lineno": "395", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1001ad0": {
+            "summary": "sizeof(struct txbuf)", 
+            "lineno": "1324", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_hif_svc.c"
+        }, 
+        "0x10049b0": {
+            "summary": "sizeof(UART_DEVICE)", 
+            "lineno": "758", 
+            "filename": "target/mac_core/src/misc/uartserp/uartserp.c"
+        }, 
+        "0x925859": {
+            "filename": "target/src/wlan/wal/AR/peer/ar_wal_peer.c", 
+            "lineno": "2101", 
+            "summary": ""
+        }, 
+        "0x10020a0": {
+            "summary": "sizeof(wlan_dcs_params_t)", 
+            "lineno": "204", 
+            "filename": "target/protocol/src/scan/wlan_dcs.c"
+        }, 
+        "0x10035f0": {
+            "summary": "sizeof(struct wlan_ba_peer_ctxt)", 
+            "lineno": "1870", 
+            "filename": "target/protocol/src/blockack/wlan_blockack.c"
+        }, 
+        "0x10000e0": {
+            "summary": "sizeof(struct ath_buf) * num_ath_data_buf", 
+            "lineno": "215", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1003c00": {
+            "summary": "sizeof(struct ar_wal_pdev_cb_data )", 
+            "lineno": "556", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }, 
+        "0x1002350": {
+            "summary": "sizeof(wlan_pps_vdev_t)", 
+            "lineno": "873", 
+            "filename": "target/protocol/src/pps/wlan_pps.c"
+        }, 
+        "0x10003c0": {
+            "summary": "cfg_tgt_num_peers(pdev)* sizeof(wlan_peer_t)", 
+            "lineno": "316", 
+            "filename": "target/protocol/src/init/wlan_dev.c"
+        }, 
+        "0x1001cf0": {
+            "summary": "sizeof(*g_htt_tgt_rx_state_ptr)", 
+            "lineno": "1013", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_rx.c"
+        }, 
+        "0x1001b20": {
+            "summary": "buf_sz * pool_sz", 
+            "lineno": "1356", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_hif_svc.c"
+        }, 
+        "0x1000b50": {
+            "summary": "sizeof(struct wlan_vdev_notif_data)", 
+            "lineno": "180", 
+            "filename": "target/protocol/src/vdev_mgr/wlan_vdev.c"
+        }, 
+        "0x93523b": {
+            "filename": "target/src/wlan/wal/whal/ani/ar6000_ani.c", 
+            "lineno": "1248", 
+            "summary": ""
+        }, 
+        "0x1004860": {
+            "summary": "sizeof(SERPORT_MGR_INFO)", 
+            "lineno": "28", 
+            "filename": "target/mac_core/src/misc/serport/serial_if.c"
+        }, 
+        "0x91e9b9": {
+            "filename": "target/src/hostif/copy_engine/copy_engine.c", 
+            "lineno": "896", 
+            "summary": ""
+        }, 
+        "0x10016b0": {
+            "summary": "sizeof(resmgr_ctxt_t)", 
+            "lineno": "339", 
+            "filename": "target/protocol/src/resmgr/resmgr.c"
+        }, 
+        "0x10019e0": {
+            "summary": "sizeof(HTC_BUFFER)", 
+            "lineno": "143", 
+            "filename": "target/mac_core/src/hostif/htc/htc.c"
+        }, 
+        "0x1003370": {
+            "summary": "sizeof(wlan_nlo_config_t) * NLO_MAX_VDEV", 
+            "lineno": "68", 
+            "filename": "target/protocol/src/offload/wlan_network_list_offload.c"
+        }, 
+        "0x1002b90": {
+            "summary": "sizeof(extend_allocram_record) * extendAllocramCont->extend_allocram_record_max", 
+            "lineno": "82", 
+            "filename": "target/mac_core/src/misc/extend_alloc/extend_allocate.c"
+        }, 
+        "0x10024e0": {
+            "summary": "iface_ev_length + sizeof(WMI_CMD_HDR)+ sizeof(HTC_FRAME_HDR)", 
+            "lineno": "2034", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x1004560": {
+            "summary": "sizeof(struct _wal_tid_ext)", 
+            "lineno": "1793", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_peer_patch.c"
+        }, 
+        "0x1002550": {
+            "summary": "peer_ev_length + sizeof(WMI_CMD_HDR)+ sizeof(HTC_FRAME_HDR)", 
+            "lineno": "2037", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x10004d0": {
+            "summary": "NumOfVdev", 
+            "lineno": "469", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x92b66b": {
+            "filename": "target/src/wlan/wal/AR/rx/ar_wal_rx_offload.c", 
+            "lineno": "620", 
+            "summary": ""
+        }, 
+        "0x92583e": {
+            "filename": "target/src/wlan/wal/AR/peer/ar_wal_peer.c", 
+            "lineno": "2097", 
+            "summary": ""
+        }, 
+        "0x1003700": {
+            "summary": "sizeof(WHAL_NF_CAL_HISTORY) * whalNumChannel", 
+            "lineno": "2100", 
+            "filename": "target/mac_core/src/wal/whal/reset/ar6320_cal.c"
+        }, 
+        "0x1001790": {
+            "summary": "sizeof(resmgr_ocs_ctx_t)", 
+            "lineno": "3533", 
+            "filename": "target/protocol/src/resmgr/resmgr_ocs.c"
+        }, 
+        "0x10026d0": {
+            "summary": "sizeof(*est_linkspeed_ctx)", 
+            "lineno": "318", 
+            "filename": "target/protocol/src/stats/wlan_estimate_linkspeed.c"
+        }, 
+        "0x10005d0": {
+            "summary": "NumOfVdev", 
+            "lineno": "473", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x1002680": {
+            "summary": "sizeof(wlan_channel_stats_t)", 
+            "lineno": "2054", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x1002200": {
+            "summary": "sizeof(*wlan_roam_handle)", 
+            "lineno": "38", 
+            "filename": "target/protocol/src/roam/wlan_roam.c"
+        }, 
+        "0x9267c8": {
+            "filename": "target/src/wlan/wal/AR/dev/ar_wal_phy_dev.c", 
+            "lineno": "104", 
+            "summary": ""
+        }, 
+        "0x1000590": {
+            "summary": "NumOfVdev", 
+            "lineno": "472", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x933fef": {
+            "filename": "target/src/wlan/wal/AR/beacon/wal_swba.c", 
+            "lineno": "143", 
+            "summary": ""
+        }, 
+        "0x1000df0": {
+            "summary": "sizeof(RFKILL_CONTEXT)", 
+            "lineno": "204", 
+            "filename": "target/protocol/src/rfkill/wlan_rfkill.c"
+        }, 
+        "0x10031e0": {
+            "summary": "P2P_IE_ONE_FRAGMENT_LENGTH", 
+            "lineno": "554", 
+            "filename": "target/protocol/src/offload/wlan_beacon_tx_offload.c"
+        }, 
+        "0x94a045": {
+            "filename": "target/src/wlan/wal/whal/coex/whal_mci.c", 
+            "lineno": "2139", 
+            "summary": ""
+        }, 
+        "0x10041a0": {
+            "summary": "sizeof(SCHED_INFO)", 
+            "lineno": "101", 
+            "filename": "target/mac_core/patch/AR6320/v3/tx_sched_patch.c"
+        }, 
+        "0x1004440": {
+            "summary": "sizeof(struct _wal_peer)", 
+            "lineno": "1765", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_peer_patch.c"
+        }, 
+        "0x1000850": {
+            "summary": "sizeof(struct data_rx_ctxt)", 
+            "lineno": "1315", 
+            "filename": "target/mac_core/src/data_txrx/full_reorder/data_rx.c"
+        }, 
+        "0x1004030": {
+            "summary": "sizeof(struct wal_rx_ring_refill)", 
+            "lineno": "3289", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_patch.c"
+        }, 
+        "0x1004910": {
+            "summary": "pInfo->RXBuffer.Size", 
+            "lineno": "79", 
+            "filename": "target/mac_core/src/misc/serport/serial_port.c"
+        }, 
+        "0x10029d0": {
+            "summary": "sizeof(struct wlan_tdls_pdev_ctx)", 
+            "lineno": "31", 
+            "filename": "target/protocol/src/tdls/wlan_tdls.c"
+        }, 
+        "0x10022b0": {
+            "summary": "sizeof(A_UINT16)*MAX_NUM_ROAM_SCAN_CHANS", 
+            "lineno": "65", 
+            "filename": "target/protocol/src/roam/wlan_roam.c"
+        }, 
+        "0x92b677": {
+            "filename": "target/src/wlan/wal/AR/rx/ar_wal_rx_offload.c", 
+            "lineno": "626", 
+            "summary": ""
+        }, 
+        "0x1001a20": {
+            "summary": "sizeof(HTC_PIPE_CONTEXT)", 
+            "lineno": "897", 
+            "filename": "target/mac_core/src/hostif/htc/htc.c"
+        }, 
+        "0x1001c30": {
+            "summary": "sizeof(*g_htt_tgt_rx_ring_state_ptr)", 
+            "lineno": "677", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_rx.c"
+        }, 
+        "0x1000060": {
+            "summary": "sizeof(wlan_bss_t)", 
+            "lineno": "22", 
+            "filename": "target/protocol/src/init/wlan_bss.c"
+        }, 
+        "0x92d949": {
+            "filename": "target/src/wlan/wal/AR/desc_mgmt/ar_wal_tx_hcm.c", 
+            "lineno": "30", 
+            "summary": ""
+        }, 
+        "0x10010a0": {
+            "summary": "sizeof(struct rxbfChainlist)", 
+            "lineno": "68", 
+            "filename": "target/protocol/src/offload_mgr/offload_mgr.c"
+        }, 
+        "0x1003930": {
+            "summary": "sizeof(nan_ctrl_ctxt_type_t)", 
+            "lineno": "61", 
+            "filename": "target/protocol/src/nan/wlan_nan_de_if.c"
+        }, 
+        "0x1002cd0": {
+            "summary": "sizeof(struct wdi_ipa_rx_state)", 
+            "lineno": "78", 
+            "filename": "target/mac_core/src/hostif/wdi_ipa/wdi_ipa_rx.c"
+        }, 
+        "0x1000510": {
+            "summary": "NumOfVdev", 
+            "lineno": "470", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x1000340": {
+            "summary": "sizeof(wlan_pdev_t)", 
+            "lineno": "122", 
+            "filename": "target/protocol/src/init/wlan_dev.c"
+        }, 
+        "0x1000210": {
+            "summary": "length", 
+            "lineno": "302", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1003770": {
+            "summary": "sizeof (struct nan_notify_event)", 
+            "lineno": "252", 
+            "filename": "target/protocol/src/nan/wlan_nan.c"
+        }, 
+        "0x1001050": {
+            "summary": "sizeof(OFFLOADMGR_CONTEXT)", 
+            "lineno": "50", 
+            "filename": "target/protocol/src/offload_mgr/offload_mgr.c"
+        }, 
+        "0x1001540": {
+            "summary": "sizeof(struct wlan_smps_pdev_ctxt)", 
+            "lineno": "1374", 
+            "filename": "target/protocol/src/power/smps/wlan_smps.c"
+        }, 
+        "0x10044a0": {
+            "summary": "sizeof(struct _wal_tid)", 
+            "lineno": "1787", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_peer_patch.c"
+        }, 
+        "0x92c61e": {
+            "filename": "target/src/wlan/wal/AR/tx/wifi_ip01/ar_wal_tx_dbg.c", 
+            "lineno": "76", 
+            "summary": ""
+        }, 
+        "0x1002f80": {
+            "summary": "sizeof(wlan_lpi_scan_config_t)", 
+            "lineno": "1321", 
+            "filename": "target/protocol/src/lpi/wlan_lpi.c"
+        }, 
+        "0x10043e0": {
+            "summary": "sizeof(struct wal_tx_mpdu)", 
+            "lineno": "4209", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tx_send_patch.c"
+        }, 
+        "0x1001660": {
+            "summary": "sizeof(channel_mgr_t)", 
+            "lineno": "45", 
+            "filename": "target/protocol/src/resmgr/channel_mgr.c"
+        }, 
+        "0x1001380": {
+            "summary": "sizeof(struct wlan_pm_arbiter_requester)", 
+            "lineno": "47", 
+            "filename": "target/protocol/src/power/wlan_pm_arbiter.c"
+        }, 
+        "0x1003a10": {
+            "summary": "sizeof(struct wal_rtt_ctxt)", 
+            "lineno": "55", 
+            "filename": "target/mac_core/src/wal/AR/rtt/wal_rtt.c"
+        }, 
+        "0x93ef16": {
+            "filename": "target/src/wlan/wal/whal/init/whal_main.c", 
+            "lineno": "68", 
+            "summary": ""
+        }, 
+        "0x92c5fb": {
+            "filename": "target/src/wlan/wal/AR/tx/wifi_ip01/ar_wal_tx_dbg.c", 
+            "lineno": "59", 
+            "summary": ""
+        }, 
+        "0x1000740": {
+            "summary": "sizeof(WAL_COEX_AVOID_FREQ_RANGES_EVENT) + AVDFREQ_SLOT_MAX * sizeof(WAL_COEX_AVOID_FREQ_RANGE_DESC)", 
+            "lineno": "2631", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_mwscoex.c"
+        }, 
+        "0x91de75": {
+            "filename": "target/src/hostif/pipecfg/genpipe.c", 
+            "lineno": "78", 
+            "summary": ""
+        }, 
+        "0x1003e10": {
+            "summary": "total_sz", 
+            "lineno": "206", 
+            "filename": "target/mac_core/patch/AR6320/v3/pool_mgr_patch.c"
+        }, 
+        "0x1000d10": {
+            "summary": "sizeof(TX_RATE_CTRL)", 
+            "lineno": "127", 
+            "filename": "target/mac_core/src/ratectrl/ratectrl_peer_state.c"
+        }, 
+        "0x1000d60": {
+            "summary": "sizeof(wlan_rtt_ctxt)", 
+            "lineno": "1480", 
+            "filename": "target/protocol/src/rtt/wlan_rtt.c"
+        }, 
+        "0x10001e0": {
+            "summary": "length", 
+            "lineno": "294", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1003240": {
+            "summary": "sizeof(P2P_IE_OFFLAOD_DEV_CTXT)", 
+            "lineno": "557", 
+            "filename": "target/protocol/src/offload/wlan_beacon_tx_offload.c"
+        }, 
+        "0x1001830": {
+            "summary": "sizeof(struct resmgr_ocs_ch_req)", 
+            "lineno": "3559", 
+            "filename": "target/protocol/src/resmgr/resmgr_ocs.c"
+        }, 
+        "0x1004150": {
+            "summary": "sizeof(*ap_cb_arg)", 
+            "lineno": "98", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_offload_patch.c"
+        }, 
+        "0x10000a0": {
+            "summary": "sizeof(wlan_buf_ctx_t)", 
+            "lineno": "35", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1001e20": {
+            "summary": "sizeof(*shared)", 
+            "lineno": "141", 
+            "filename": "target/mac_core/src/utils/sm/sm.c"
+        }, 
+        "0x926886": {
+            "filename": "target/src/wlan/wal/AR/dev/ar_wal_phy_dev.c", 
+            "lineno": "153", 
+            "summary": ""
+        }, 
+        "0x91292d": {
+            "filename": "target/src/os/common/cmnos_allocram.c", 
+            "lineno": "329", 
+            "summary": ""
+        }, 
+        "0x10046b0": {
+            "summary": "sizeof(reg_write_track_st) * g_dbg_reg_wr_track_max", 
+            "lineno": "354", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar600P_retention_patch.c"
+        }, 
+        "0x10010f0": {
+            "summary": "sizeof(struct ath_buf)", 
+            "lineno": "84", 
+            "filename": "target/protocol/src/offload_mgr/offload_mgr.c"
+        }, 
+        "0x1003f70": {
+            "summary": "sizeof(A_UINT32) * ring_size", 
+            "lineno": "2745", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_patch.c"
+        }, 
+        "0x1001270": {
+            "summary": "sizeof(WLAN_BEACON_STRUCT)", 
+            "lineno": "175", 
+            "filename": "target/protocol/src/mgmt/wlan_beacon.c"
+        }, 
+        "0x1002430": {
+            "summary": "sizeof(wlan_peer_link_stats_ext_t)", 
+            "lineno": "1493", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x1002c70": {
+            "summary": "sizeof(wlan_thermal_param)", 
+            "lineno": "32", 
+            "filename": "target/protocol/src/thermal_mgr/wlan_thermal_mgr.c"
+        }, 
+        "0x1003310": {
+            "summary": "sizeof(wlan_nlo_context_t)", 
+            "lineno": "64", 
+            "filename": "target/protocol/src/offload/wlan_network_list_offload.c"
+        }, 
+        "0x10012c0": {
+            "summary": "sizeof(wlan_beacon_early_rx_handle_t)*num_vdev", 
+            "lineno": "1140", 
+            "filename": "target/protocol/src/mgmt/wlan_early_rx_sm.c"
+        }, 
+        "0x10028d0": {
+            "summary": "sizeof(BUF_CHUNK_CTXT)", 
+            "lineno": "31", 
+            "filename": "target/mac_core/src/utils/buf_chunk/buf_chunk_api.c"
+        }, 
+        "0x9234ed": {
+            "filename": "target/src/wlan/wal/AR/local_frames/ar_wal_local_frames_wifi_ip01.c", 
+            "lineno": "135", 
+            "summary": ""
+        }, 
+        "0x1002810": {
+            "summary": "size1", 
+            "lineno": "731", 
+            "filename": "target/protocol/src/chatter/wlan_coalescing.c"
+        }, 
+        "0x1004500": {
+            "summary": "sizeof(struct ar_wal_peer_cb_data )", 
+            "lineno": "1789", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_peer_patch.c"
+        }, 
+        "0x1000190": {
+            "summary": "sizeof(struct rxbuf) * ath_rxbuf", 
+            "lineno": "237", 
+            "filename": "target/protocol/src/init/wlan_buf.c"
+        }, 
+        "0x1003050": {
+            "summary": "sizeof(ARP_NS_OFFLOAD_INFO)", 
+            "lineno": "1084", 
+            "filename": "target/protocol/src/offload/wlan_arp_ns_offload.c"
+        }, 
+        "0x10015a0": {
+            "summary": "sizeof(struct wlan_smps_virtual_chan_ctxt)", 
+            "lineno": "1381", 
+            "filename": "target/protocol/src/power/smps/wlan_smps.c"
+        }, 
+        "0x1000c10": {
+            "summary": "sizeof(struct ratectrl_ctxt)", 
+            "lineno": "135", 
+            "filename": "target/mac_core/src/ratectrl/ratectrl_11ac_if.c"
+        }, 
+        "0x1002780": {
+            "summary": "sizeof(P2P_DEV_CTXT_S)", 
+            "lineno": "112", 
+            "filename": "target/protocol/src/p2p/p2p_main.c"
+        }, 
+        "0x1003490": {
+            "summary": "sizeof(struct wlan_swbmiss_evt_cb_data)", 
+            "lineno": "95", 
+            "filename": "target/protocol/src/offload/wlan_swbmiss_offload.c"
+        }, 
+        "0x10013e0": {
+            "summary": "sizeof(struct wlan_ps_pdev_ctx)", 
+            "lineno": "56", 
+            "filename": "target/protocol/src/power/wlan_powersave.c"
+        }, 
+        "0x1002fd0": {
+            "summary": "LPI_RESULT_EVENT_SIZE", 
+            "lineno": "1322", 
+            "filename": "target/protocol/src/lpi/wlan_lpi.c"
+        }, 
+        "0x9234e0": {
+            "filename": "target/src/wlan/wal/AR/local_frames/ar_wal_local_frames_wifi_ip01.c", 
+            "lineno": "131", 
+            "summary": ""
+        }, 
+        "0x1003010": {
+            "summary": "LPI_RESULT_DATA_SIZE", 
+            "lineno": "1323", 
+            "filename": "target/protocol/src/lpi/wlan_lpi.c"
+        }, 
+        "0x10017e0": {
+            "summary": "sizeof(resmgr_ocs_ch_allocator_t)", 
+            "lineno": "3545", 
+            "filename": "target/protocol/src/resmgr/resmgr_ocs.c"
+        }, 
+        "0x10032a0": {
+            "summary": "sizeof(wlan_beacon_tx_offload_done_notif_data)", 
+            "lineno": "561", 
+            "filename": "target/protocol/src/offload/wlan_beacon_tx_offload.c"
+        }, 
+        "0x1000610": {
+            "summary": "NumOfVdev", 
+            "lineno": "474", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x1000a50": {
+            "summary": "sizeof(struct data_rx_reorder_msdu)", 
+            "lineno": "1583", 
+            "filename": "target/mac_core/src/data_txrx/full_reorder/data_rx_reorder.c"
+        }, 
+        "0x1002850": {
+            "summary": "size", 
+            "lineno": "743", 
+            "filename": "target/protocol/src/chatter/wlan_coalescing.c"
+        }, 
+        "0x1000c70": {
+            "summary": "sizeof(struct RATE_CONTEXT)", 
+            "lineno": "141", 
+            "filename": "target/mac_core/src/ratectrl/ratectrl_11ac_if.c"
+        }, 
+        "0x1001ec0": {
+            "summary": "sizeof(COEX_STRUCT)", 
+            "lineno": "1110", 
+            "filename": "target/protocol/src/coex/coex.c"
+        }, 
+        "0x1000ac0": {
+            "summary": "sizeof(*vdevp)", 
+            "lineno": "162", 
+            "filename": "target/protocol/src/vdev_mgr/wlan_vdev.c"
+        }, 
+        "0x10008b0": {
+            "summary": "sizeof(struct rx_reorder_stats)", 
+            "lineno": "1327", 
+            "filename": "target/mac_core/src/data_txrx/full_reorder/data_rx.c"
+        }, 
+        "0x10037c0": {
+            "summary": "sizeof(NAN_SyncCbType)", 
+            "lineno": "1144", 
+            "filename": "target/protocol/src/nan/wlan_nan_sync.c"
+        }, 
+        "0x1000cc0": {
+            "summary": "sizeof(struct rate_node)", 
+            "lineno": "147", 
+            "filename": "target/mac_core/src/ratectrl/ratectrl_11ac_if.c"
+        }, 
+        "0x10033e0": {
+            "summary": "sizeof(*wlan_swbmiss)", 
+            "lineno": "82", 
+            "filename": "target/protocol/src/offload/wlan_swbmiss_offload.c"
+        }, 
+        "0x91838b": {
+            "filename": "target/src/misc/gpio/gpio.c", 
+            "lineno": "627", 
+            "summary": ""
+        }, 
+        "0x10011a0": {
+            "summary": "size", 
+            "lineno": "1236", 
+            "filename": "target/protocol/src/offload_mgr/wlan_gtk_offload.c"
+        }, 
+        "0x10011e0": {
+            "summary": "size", 
+            "lineno": "589", 
+            "filename": "target/protocol/src/offload_mgr/wlan_wow.c"
+        }, 
+        "0x1003540": {
+            "summary": "sizeof(*g_codeswap_ctxt)", 
+            "lineno": "221", 
+            "filename": "target/mac_core/src/misc/codeswap/codeswap.c"
+        }, 
+        "0x1001e60": {
+            "summary": "sizeof(struct sm_event_info) + event_data_len", 
+            "lineno": "143", 
+            "filename": "target/mac_core/src/utils/sm/sm.c"
+        }, 
+        "0x1001c90": {
+            "summary": "ring_size * sizeof(struct rxbuf *)", 
+            "lineno": "712", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_rx.c"
+        }, 
+        "0x1001880": {
+            "summary": "sizeof(struct resmgr_ocs_notif_data)", 
+            "lineno": "3575", 
+            "filename": "target/protocol/src/resmgr/resmgr_ocs.c"
+        }, 
+        "0x91ea38": {
+            "filename": "target/src/hostif/copy_engine/copy_engine.c", 
+            "lineno": "935", 
+            "summary": ""
+        }, 
+        "0x1002390": {
+            "summary": "sizeof(*stats_handle)", 
+            "lineno": "723", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x930e91": {
+            "filename": "target/src/wlan/wal/AR/dev/ar_wal_vdev.c", 
+            "lineno": "120", 
+            "summary": ""
+        }, 
+        "0x10027c0": {
+            "summary": "sizeof(struct wlan_chatter_ctxt)", 
+            "lineno": "614", 
+            "filename": "target/protocol/src/chatter/wlan_chatter.c"
+        }, 
+        "0x1003fd0": {
+            "summary": "buffer_size * num_entries", 
+            "lineno": "3159", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_patch.c"
+        }, 
+        "0x1003650": {
+            "summary": "sizeof(struct wlan_ba_tx_sm_ctxt)", 
+            "lineno": "1872", 
+            "filename": "target/protocol/src/blockack/wlan_blockack.c"
+        }, 
+        "0x1002250": {
+            "summary": "sizeof(*wlan_roam_handle->vdev_roam) * num_vdev", 
+            "lineno": "43", 
+            "filename": "target/protocol/src/roam/wlan_roam.c"
+        }, 
+        "0x1000970": {
+            "summary": "sizeof(struct data_rx_reorder_tid)", 
+            "lineno": "1561", 
+            "filename": "target/mac_core/src/data_txrx/full_reorder/data_rx_reorder.c"
+        }, 
+        "0x93b243": {
+            "filename": "target/src/wlan/wal/whal/retention/ar600P_retention.c", 
+            "lineno": "656", 
+            "summary": ""
+        }, 
+        "0x10038a0": {
+            "summary": "sizeof(tNanSubscribeCtx)", 
+            "lineno": "221", 
+            "filename": "target/protocol/src/nan/wlan_nan_subscribe.c"
+        }, 
+        "0x9267f4": {
+            "filename": "target/src/wlan/wal/AR/dev/ar_wal_phy_dev.c", 
+            "lineno": "107", 
+            "summary": ""
+        }, 
+        "0x10034f0": {
+            "summary": "CODESWAP_AXI_FUNC_HEAP_SIZE", 
+            "lineno": "194", 
+            "filename": "target/mac_core/src/misc/codeswap/codeswap.c"
+        }, 
+        "0x1003cb0": {
+            "summary": "sizeof(struct _wal_vdev_ext) * config_param->num_vdev_entries", 
+            "lineno": "771", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }, 
+        "0x1001600": {
+            "summary": "sizeof(struct wlan_smps_sta_ctxt)", 
+            "lineno": "1386", 
+            "filename": "target/protocol/src/power/smps/wlan_smps.c"
+        }, 
+        "0x1000ee0": {
+            "summary": "DBGLOG_NUM_LOG_BUFFERS * DBGBUF_SZ", 
+            "lineno": "399", 
+            "filename": "target/protocol/src/wmi/wlan_wmi.c"
+        }, 
+        "0x1003eb0": {
+            "summary": "sizeof(peer_ppdu_rxrate)", 
+            "lineno": "2218", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_patch.c"
+        }, 
+        "0x92c595": {
+            "filename": "target/src/wlan/wal/AR/txbf/ar_wal_txbf.c", 
+            "lineno": "192", 
+            "summary": ""
+        }, 
+        "0x10040f0": {
+            "summary": "sizeof(struct rx_offload_cb_data )", 
+            "lineno": "87", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_rx_offload_patch.c"
+        }, 
+        "0x1003c60": {
+            "summary": "sizeof(*g_pdev_ext)", 
+            "lineno": "749", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }, 
+        "0x1000f90": {
+            "summary": "sizeof(bcn_filter_t) * pdev->cfg_tgt.num_vdevs", 
+            "lineno": "416", 
+            "filename": "target/protocol/src/offload_mgr/beacon_filter.c"
+        }, 
+        "0x10023e0": {
+            "summary": "sizeof(chan_activity_t)", 
+            "lineno": "732", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x10041f0": {
+            "summary": "sizeof(struct wal_tx_ctxt)", 
+            "lineno": "4070", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tx_send_patch.c"
+        }, 
+        "0x10014f0": {
+            "summary": "sizeof(union wlan_ps_vdev_common)", 
+            "lineno": "83", 
+            "filename": "target/protocol/src/power/wlan_powersave.c"
+        }, 
+        "0x10019a0": {
+            "summary": "totalSize", 
+            "lineno": "138", 
+            "filename": "target/mac_core/src/hostif/htc/htc.c"
+        }, 
+        "0x92683d": {
+            "filename": "target/src/wlan/wal/AR/dev/ar_wal_phy_dev.c", 
+            "lineno": "119", 
+            "summary": ""
+        }, 
+        "0x1003430": {
+            "summary": "sizeof(wlan_swbmiss_vdev_t)", 
+            "lineno": "89", 
+            "filename": "target/protocol/src/offload/wlan_swbmiss_offload.c"
+        }, 
+        "0x1001db0": {
+            "summary": "g_htt_tgt_tx_state.htt_tgt_tx_compl_idx_bitmap_size", 
+            "lineno": "816", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_tx.c"
+        }, 
+        "0x1000420": {
+            "summary": "sizeof(WAL_COEX_STRUCT)", 
+            "lineno": "466", 
+            "filename": "target/mac_core/src/wal/AR/coex/wal_coex.c"
+        }, 
+        "0x10036b0": {
+            "summary": "sizeof(WHAL_CAL_INFO)", 
+            "lineno": "2094", 
+            "filename": "target/mac_core/src/wal/whal/reset/ar6320_cal.c"
+        }, 
+        "0x10025c0": {
+            "summary": "radio_ev_length + sizeof(WMI_CMD_HDR)+ sizeof(HTC_FRAME_HDR)", 
+            "lineno": "2040", 
+            "filename": "target/protocol/src/stats/wlan_stats.c"
+        }, 
+        "0x10030b0": {
+            "summary": "(pdev->cfg_tgt.num_keep_alive_pattern)* sizeof(PROACT_ARP_RESP_PATTERN)", 
+            "lineno": "1146", 
+            "filename": "target/protocol/src/offload/wlan_arp_ns_offload.c"
+        }, 
+        "0x1002db0": {
+            "summary": "sizeof(struct wdi_ipa_tx_state)", 
+            "lineno": "84", 
+            "filename": "target/mac_core/src/hostif/wdi_ipa/wdi_ipa_tx.c"
+        }, 
+        "0x92584c": {
+            "filename": "target/src/wlan/wal/AR/peer/ar_wal_peer.c", 
+            "lineno": "2099", 
+            "summary": ""
+        }, 
+        "0x1001a70": {
+            "summary": "sizeof(struct ath_buf) * allocate", 
+            "lineno": "1314", 
+            "filename": "target/mac_core/src/hostif/htt/htt_tgt_hif_svc.c"
+        }, 
+        "0x1003980": {
+            "summary": "sizeof(tNanMatchCtx)", 
+            "lineno": "50", 
+            "filename": "target/protocol/src/nan/wlan_nan_match.c"
+        }, 
+        "0x1004310": {
+            "summary": "max_hw_ppdus * sizeof(WHAL_TX_STATUS)", 
+            "lineno": "4138", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tx_send_patch.c"
+        }, 
+        "0x920de7": {
+            "filename": "target/src/wlan/wal/AR/tx/wifi_ip01/ar_tx_q_enque.c", 
+            "lineno": "31", 
+            "summary": ""
+        }, 
+        "0x91d07b": {
+            "filename": "target/src/hostif/hif/hif_ce/hif_ce.c", 
+            "lineno": "79", 
+            "summary": ""
+        }, 
+        "0x1003a60": {
+            "summary": "sizeof(*g_dbg_wal_stats)", 
+            "lineno": "505", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }, 
+        "0x950d94": {
+            "filename": "target/src/wlan/bufpool/buf_pool.c", 
+            "lineno": "25", 
+            "summary": ""
+        }, 
+        "0x94a008": {
+            "filename": "target/src/wlan/wal/whal/coex/whal_mci.c", 
+            "lineno": "2132", 
+            "summary": ""
+        }, 
+        "0x1002970": {
+            "summary": "sizeof(struct rx_txbf_musu_ndpa_pkts_stats)", 
+            "lineno": "1045", 
+            "filename": "target/protocol/src/txbf/wlan_txbf.c"
+        }, 
+        "0x1001000": {
+            "summary": "sizeof(CSA_DEV_CTXT_S)", 
+            "lineno": "548", 
+            "filename": "target/protocol/src/offload_mgr/csa_offload_main.c"
+        }, 
+        "0x1000bb0": {
+            "summary": "sizeof(struct wlan_vdev_op_cb_data)", 
+            "lineno": "184", 
+            "filename": "target/protocol/src/vdev_mgr/wlan_vdev.c"
+        }, 
+        "0x1003dc0": {
+            "summary": "sizeof(*ctxt)", 
+            "lineno": "172", 
+            "filename": "target/mac_core/patch/AR6320/v3/pool_mgr_patch.c"
+        }, 
+        "0x10042b0": {
+            "summary": "sizeof(struct wal_tx_ppdu)", 
+            "lineno": "4134", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_tx_send_patch.c"
+        }, 
+        "0x1003130": {
+            "summary": "BEACON_TX_BUFFER_SIZE", 
+            "lineno": "547", 
+            "filename": "target/protocol/src/offload/wlan_beacon_tx_offload.c"
+        }, 
+        "0x10014a0": {
+            "summary": "sizeof(union wlan_ps_peer_common)", 
+            "lineno": "77", 
+            "filename": "target/protocol/src/power/wlan_powersave.c"
+        }, 
+        "0x1003bb0": {
+            "summary": "peer_ptr_sz", 
+            "lineno": "553", 
+            "filename": "target/mac_core/patch/AR6320/v3/ar_wal_phy_dev_patch.c"
+        }
+    }, 
+    "date": "2016-10-20 07:20:17.707336"
+}

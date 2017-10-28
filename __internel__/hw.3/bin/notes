@@ -1,0 +1,27 @@
+fw.rom.bin
+Replace 12 00 02 00 3E to 12 00 02 00 42.
+change PCIe device ID from 0x3E(Rome) to 0x42(Tufello)
+
+00410e80 <ROM_PCIe_config_space_data>:
+  410e80:   00020012 0800143e 30008002 c9400014     ....>......0..@.                                                                                         
+  410e90:   110150c3 14065200 04057400 0011c18d     .P...R...t......
+  410ea0:   07146c7d 3f3f270c 00000001              }l...'??....
+
+
+A_UINT8 ROM_PCIe_config_space_data[] =
+{
+    (PCIE_CONFIG_OP_SET<<4) | 2, /* Set 2 bytes */
+    (PCIE_DEVICE_ID_OFFSET>>8), (PCIE_DEVICE_ID_OFFSET & 0xff),
+    (CONFIG_PCIE_DEVICE_ID>>8), (CONFIG_PCIE_DEVICE_ID & 0xff),
+
+    /*
+     * Class code/Rev ID register (0x08)
+     * CLASS=network
+     * SUBCLASS="other network controller"
+     * Rev ID=0
+     * 0x60008 <-- 0x02800000
+     */
+    (PCIE_CONFIG_OP_SET<<4) | 4, /* Set 4 bytes */
+    0x00, 0x08,
+    0x02, 0x80, 0x00, TARGET_VER << 4 | TARGET_REV,
+
